@@ -40,22 +40,31 @@ export function updateStoreStateFromController(pageName, newState) {
 const desktopModeProps = {
   ...{
   "Home": {
-    "Flex1": {
+    "Body": {
       "callbacks": {}
     },
     "Header": {
       "callbacks": {}
     },
-    "Flex3": {
+    "Logo": {
       "callbacks": {}
     },
-    "Flex4": {
+    "Navigation_Options": {
       "callbacks": {}
     },
-    "Flex5": {
+    "Footer": {
       "callbacks": {}
     },
-    "Flex6": {
+    "Flex39": {
+      "callbacks": {}
+    },
+    "Model_Info": {
+      "callbacks": {}
+    },
+    "Model_Header": {
+      "callbacks": {}
+    },
+    "Model_Social": {
       "callbacks": {}
     },
     "Flex7": {
@@ -64,100 +73,100 @@ const desktopModeProps = {
     "Flex8": {
       "callbacks": {}
     },
-    "Flex9": {
+    "Steps": {
       "callbacks": {}
     },
-    "Div1": {
+    "Step_1": {
       "callbacks": {}
     },
-    "Flex10": {
+    "Flex43": {
       "callbacks": {}
     },
-    "Div2": {
+    "Flex49": {
       "callbacks": {}
     },
-    "Div4": {
+    "Div26": {
       "callbacks": {}
     },
-    "Flex11": {
+    "Flex55": {
       "callbacks": {}
     },
-    "Flex12": {
+    "Flex57": {
       "callbacks": {}
     },
-    "Flex13": {
+    "Div43": {
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Step_2": {
       "callbacks": {}
     },
-    "Div3": {
+    "Flex61": {
       "callbacks": {}
     },
-    "Div5": {
+    "Flex60": {
       "callbacks": {}
     },
-    "Flex14": {
+    "Flex59": {
       "callbacks": {}
     },
-    "Div6": {
+    "Div34": {
       "callbacks": {}
     },
-    "Flex15": {
+    "Flex64": {
       "callbacks": {}
     },
-    "Div9": {
+    "Flex66": {
       "callbacks": {}
     },
-    "Div8": {
+    "Flex62": {
       "callbacks": {}
     },
-    "Flex18": {
+    "Step_3": {
       "callbacks": {}
     },
-    "Flex17": {
+    "Flex71": {
       "callbacks": {}
     },
-    "Flex16": {
+    "Flex72": {
       "callbacks": {}
     },
-    "Div19": {
+    "Flex70": {
       "callbacks": {}
     },
-    "Div18": {
+    "Flex68": {
       "callbacks": {}
     },
-    "Flex33": {
+    "Flex74": {
       "callbacks": {}
     },
-    "Flex32": {
+    "Logs": {
       "callbacks": {}
     },
-    "Div21": {
+    "Flex76": {
       "callbacks": {}
     },
-    "Flex34": {
+    "Flex77": {
       "callbacks": {}
     },
-    "Div23": {
+    "Flex78": {
       "callbacks": {}
     },
-    "Flex35": {
+    "Div42": {
       "callbacks": {}
     },
-    "Flex36": {
+    "Flex85": {
       "callbacks": {}
     },
-    "Flex37": {
+    "Flex84": {
       "callbacks": {}
     },
-    "Div24": {
-      "callbacks": {}
-    },
-    "Flex38": {
-      "callbacks": {}
-    },
-    "Flex39": {
-      "callbacks": {}
-    },
-    "Button1": {
+    "Login_Button": {
       "custom": {
         "text": "Log In"
       },
@@ -169,7 +178,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image1": {
+    "Logo_Image": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/logo_with_name%202atri_labs.png"
@@ -182,7 +191,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image2": {
+    "Logo_Image_Name": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/logo_with_name%203.png"
@@ -195,7 +204,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox1": {
+    "Showcase": {
       "custom": {
         "text": "Showcase"
       },
@@ -207,364 +216,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox2": {
+    "Docs": {
       "custom": {
         "text": "Docs"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox3": {
-      "custom": {
-        "text": "Model Name"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox4": {
-      "custom": {
-        "text": "42"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox6": {
-      "custom": {
-        "text": "Babylog provides a standard for efficient logging of prediction data: model information, inference statistics, predictions, and raw input images are bundled up into one file in binary format."
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox7": {
-      "custom": {
-        "text": "STEP 1"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox8": {
-      "custom": {
-        "text": "Upload a Video"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox9": {
-      "custom": {
-        "text": "Upload"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image3": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/Red%20Abstract%20Income%20Money%20YouTube%20Thumbnail%20(1)%201image.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox10": {
-      "custom": {
-        "text": "STEP 2"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox11": {
-      "custom": {
-        "text": "STEP 3"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox13": {
-      "custom": {
-        "text": "Run"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox12": {
-      "custom": {
-        "text": "Run"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox23": {
-      "custom": {
-        "text": "Choose logging interval (min)"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Div20": {
-      "callbacks": {}
-    },
-    "Div22": {
-      "callbacks": {}
-    },
-    "TextBox24": {
-      "custom": {
-        "text": "0 m"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox25": {
-      "custom": {
-        "text": "30 m"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox26": {
-      "custom": {
-        "text": "OUTPUT"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox27": {
-      "custom": {
-        "text": "30 mins ago"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox28": {
-      "custom": {
-        "text": "60 mins ago"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox29": {
-      "custom": {
-        "text": "import requests"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox32": {
-      "custom": {
-        "text": "import json"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox33": {
-      "custom": {
-        "text": ""
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox34": {
-      "custom": {
-        "text": "headers = { 'Authorization': \"\",'Content-Type': 'application/json'}"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox35": {
-      "custom": {
-        "text": "json_input = { \"model\": 154, \"version\": 441, \"account\": , \"input_sequence\":\"Your input goes here\", \"max_new_tokens\":50}"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox36": {
-      "custom": {
-        "text": "url = \"https://predict.pyqai.com\""
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox37": {
-      "custom": {
-        "text": "response = requests.post(headers=headers, json = json_input, url = url )"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox38": {
-      "custom": {
-        "text": ""
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox39": {
-      "custom": {
-        "text": ""
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox40": {
-      "custom": {
-        "text": ""
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox41": {
-      "custom": {
-        "text": ""
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox42": {
-      "custom": {
-        "text": "print(json.loads(response.content)['response']['response'])"
       },
       "callbacks": {
         "onClick": [
@@ -589,6 +243,465 @@ const desktopModeProps = {
     "TextBox44": {
       "custom": {
         "text": "Made with Atri"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image26": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Ellipse%203.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox6": {
+      "custom": {
+        "text": "Babylog provides a standard for efficient logging of prediction data: model information, inference statistics, predictions, and raw input images are bundled up into one file in binary format."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Model_Name": {
+      "custom": {
+        "text": "Model Name"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox4": {
+      "custom": {
+        "text": "42"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image7": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Vectorlike.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image9": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Vectorshare.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox45": {
+      "custom": {
+        "text": "STEP 1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image10": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Ellipse%203.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image6": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Red%20Abstract%20Income%20Money%20YouTube%20Thumbnail%20(1)%201image.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div29": {
+      "callbacks": {}
+    },
+    "TextBox54": {
+      "custom": {
+        "text": "Upload a Video"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Upload5": {
+      "custom": {
+        "multiple": false,
+        "showFilename": false,
+        "text": "Upload",
+        "disabled": false
+      },
+      "callbacks": {
+        "onChange": [
+          {
+            "sendFile": {
+              "self": true,
+              "props": [
+                "io",
+                "files"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "File_Upload": {
+      "custom": {
+        "multiple": false,
+        "showFilename": false,
+        "text": "Upload",
+        "disabled": true,
+        "multuple": false
+      },
+      "callbacks": {
+        "onChange": [
+          {
+            "sendFile": {
+              "self": true,
+              "props": [
+                "io",
+                "files"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "Image22": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/upload.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div30": {
+      "callbacks": {}
+    },
+    "TextBox56": {
+      "custom": {
+        "text": "Choose logging interval (min)"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div32": {
+      "callbacks": {}
+    },
+    "Div33": {
+      "callbacks": {}
+    },
+    "TextBox58": {
+      "custom": {
+        "text": "30 m"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox59": {
+      "custom": {
+        "text": "0 m"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Input2": {
+      "custom": {
+        "value": "15",
+        "placeholder": ""
+      },
+      "callbacks": {}
+    },
+    "Image18": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Ellipse%203.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox57": {
+      "custom": {
+        "text": "STEP 2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox63": {
+      "custom": {
+        "text": "STEP 3"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image19": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Ellipse%203.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div38": {
+      "callbacks": {}
+    },
+    "TextBox62": {
+      "custom": {
+        "text": "Run"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox64": {
+      "custom": {
+        "text": "Run"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox65": {
+      "custom": {
+        "text": "OUTPUT"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox66": {
+      "custom": {
+        "text": "30 mins ago"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image20": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Polygon%201.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox67": {
+      "custom": {
+        "text": "60 mins ago"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image21": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Polygon%202.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox105": {
+      "custom": {
+        "text": "url = \"https://predict.pyqai.com\""
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox106": {
+      "custom": {
+        "text": "json_input = { \"model\": 154, \"version\": 441, \"account\": , \"input_sequence\":\"Your input goes here\", \"max_new_tokens\":50}"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox107": {
+      "custom": {
+        "text": "headers = { 'Authorization': \"\",'Content-Type': 'application/json'}"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox108": {
+      "custom": {
+        "text": "print(json.loads(response.content)['response']['response'])"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox109": {
+      "custom": {
+        "text": "response = requests.post(headers=headers, json = json_input, url = url )"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox103": {
+      "custom": {
+        "text": "import json"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox104": {
+      "custom": {
+        "text": "import requests"
       },
       "callbacks": {
         "onClick": [
