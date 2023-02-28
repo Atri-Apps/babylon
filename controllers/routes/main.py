@@ -21,4 +21,7 @@ def handle_event(at: Atri, req: Request, res: Response):
     This function is called whenever an event is received. An event occurs when user
     performs some action such as click button.
     """
-    pass
+    if at.Video_Upload.onChange:
+        # sanity check if user has successfully uploaded a file
+        if at.Video_Upload.io.files != None:
+            print("Video file selected", at.Video_Upload.io.files)

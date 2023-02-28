@@ -380,7 +380,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Upload5": {
+    "Video_Upload": {
       "custom": {
         "multiple": false,
         "showFilename": false,
@@ -556,6 +556,19 @@ const desktopModeProps = {
     "TextBox64": {
       "custom": {
         "text": "Run"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image27": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Vector.png"
       },
       "callbacks": {
         "onClick": [

@@ -11,7 +11,7 @@ import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/I
 import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Upload } from "@atrilabs/react-component-manifests/src/manifests/Upload/Upload.tsx";
 import { Input } from "@atrilabs/react-component-manifests/src/manifests/Input/Input.tsx";
-import { useBodyCb, useHeaderCb, useLogoCb, useNavigation_OptionsCb, useFooterCb, useFlex39Cb, useModel_InfoCb, useModel_HeaderCb, useModel_SocialCb, useFlex7Cb, useFlex8Cb, useStepsCb, useStep_1Cb, useFlex43Cb, useFlex49Cb, useDiv26Cb, useFlex55Cb, useFlex57Cb, useDiv43Cb, useStep_2Cb, useFlex61Cb, useFlex60Cb, useFlex59Cb, useDiv34Cb, useFlex64Cb, useFlex66Cb, useFlex62Cb, useStep_3Cb, useFlex71Cb, useFlex72Cb, useFlex70Cb, useFlex68Cb, useFlex74Cb, useLogsCb, useFlex76Cb, useFlex77Cb, useFlex78Cb, useDiv42Cb, useFlex85Cb, useFlex84Cb, useLogin_ButtonCb, useLogo_ImageCb, useLogo_Image_NameCb, useShowcaseCb, useDocsCb, useTextBox43Cb, useTextBox44Cb, useImage26Cb, useTextBox6Cb, useModel_NameCb, useTextBox4Cb, useImage7Cb, useImage9Cb, useTextBox45Cb, useImage10Cb, useImage6Cb, useDiv29Cb, useTextBox54Cb, useUpload5Cb, useFile_UploadCb, useImage22Cb, useDiv30Cb, useTextBox56Cb, useDiv32Cb, useDiv33Cb, useTextBox58Cb, useTextBox59Cb, useInput2Cb, useImage18Cb, useTextBox57Cb, useTextBox63Cb, useImage19Cb, useDiv38Cb, useTextBox62Cb, useTextBox64Cb, useTextBox65Cb, useTextBox66Cb, useImage20Cb, useTextBox67Cb, useImage21Cb, useTextBox105Cb, useTextBox106Cb, useTextBox107Cb, useTextBox108Cb, useTextBox109Cb, useTextBox103Cb, useTextBox104Cb } from "../page-cbs/Home";
+import { useBodyCb, useHeaderCb, useLogoCb, useNavigation_OptionsCb, useFooterCb, useFlex39Cb, useModel_InfoCb, useModel_HeaderCb, useModel_SocialCb, useFlex7Cb, useFlex8Cb, useStepsCb, useStep_1Cb, useFlex43Cb, useFlex49Cb, useDiv26Cb, useFlex55Cb, useFlex57Cb, useDiv43Cb, useStep_2Cb, useFlex61Cb, useFlex60Cb, useFlex59Cb, useDiv34Cb, useFlex64Cb, useFlex66Cb, useFlex62Cb, useStep_3Cb, useFlex71Cb, useFlex72Cb, useFlex70Cb, useFlex68Cb, useFlex74Cb, useLogsCb, useFlex76Cb, useFlex77Cb, useFlex78Cb, useDiv42Cb, useFlex85Cb, useFlex84Cb, useLogin_ButtonCb, useLogo_ImageCb, useLogo_Image_NameCb, useShowcaseCb, useDocsCb, useTextBox43Cb, useTextBox44Cb, useImage26Cb, useTextBox6Cb, useModel_NameCb, useTextBox4Cb, useImage7Cb, useImage9Cb, useTextBox45Cb, useImage10Cb, useImage6Cb, useDiv29Cb, useTextBox54Cb, useVideo_UploadCb, useFile_UploadCb, useImage22Cb, useDiv30Cb, useTextBox56Cb, useDiv32Cb, useDiv33Cb, useTextBox58Cb, useTextBox59Cb, useInput2Cb, useImage18Cb, useTextBox57Cb, useTextBox63Cb, useImage19Cb, useDiv38Cb, useTextBox62Cb, useTextBox64Cb, useImage27Cb, useTextBox65Cb, useTextBox66Cb, useImage20Cb, useTextBox67Cb, useImage21Cb, useTextBox105Cb, useTextBox106Cb, useTextBox107Cb, useTextBox108Cb, useTextBox109Cb, useTextBox103Cb, useTextBox104Cb } from "../page-cbs/Home";
 import "../page-css/Home.css";
 import "../custom/Home";
 
@@ -205,9 +205,9 @@ const Div29Cb = useDiv29Cb()
 const TextBox54Props = useStore((state)=>state["Home"]["TextBox54"]);
 const TextBox54IoProps = useIoStore((state)=>state["Home"]["TextBox54"]);
 const TextBox54Cb = useTextBox54Cb()
-const Upload5Props = useStore((state)=>state["Home"]["Upload5"]);
-const Upload5IoProps = useIoStore((state)=>state["Home"]["Upload5"]);
-const Upload5Cb = useUpload5Cb()
+const Video_UploadProps = useStore((state)=>state["Home"]["Video_Upload"]);
+const Video_UploadIoProps = useIoStore((state)=>state["Home"]["Video_Upload"]);
+const Video_UploadCb = useVideo_UploadCb()
 const File_UploadProps = useStore((state)=>state["Home"]["File_Upload"]);
 const File_UploadIoProps = useIoStore((state)=>state["Home"]["File_Upload"]);
 const File_UploadCb = useFile_UploadCb()
@@ -256,6 +256,9 @@ const TextBox62Cb = useTextBox62Cb()
 const TextBox64Props = useStore((state)=>state["Home"]["TextBox64"]);
 const TextBox64IoProps = useIoStore((state)=>state["Home"]["TextBox64"]);
 const TextBox64Cb = useTextBox64Cb()
+const Image27Props = useStore((state)=>state["Home"]["Image27"]);
+const Image27IoProps = useIoStore((state)=>state["Home"]["Image27"]);
+const Image27Cb = useImage27Cb()
 const TextBox65Props = useStore((state)=>state["Home"]["TextBox65"]);
 const TextBox65IoProps = useIoStore((state)=>state["Home"]["TextBox65"]);
 const TextBox65Cb = useTextBox65Cb()
@@ -332,7 +335,7 @@ const TextBox104Cb = useTextBox104Cb()
 <Div className="p-Home Div29 bpt" {...Div29Props} {...Div29Cb} {...Div29IoProps}/>
 <Flex className="p-Home Flex57 bpt" {...Flex57Props} {...Flex57Cb} {...Flex57IoProps}>
 <TextBox className="p-Home TextBox54 bpt" {...TextBox54Props} {...TextBox54Cb} {...TextBox54IoProps}/>
-<Upload className="p-Home Upload5 bpt" {...Upload5Props} {...Upload5Cb} {...Upload5IoProps}/>
+<Upload className="p-Home Video_Upload bpt" {...Video_UploadProps} {...Video_UploadCb} {...Video_UploadIoProps}/>
 <Div className="p-Home Div43 bpt" {...Div43Props} {...Div43Cb} {...Div43IoProps}>
 <Image className="p-Home Image22 bpt" {...Image22Props} {...Image22Cb} {...Image22IoProps}/>
 <Upload className="p-Home File_Upload bpt" {...File_UploadProps} {...File_UploadCb} {...File_UploadIoProps}/>
@@ -380,6 +383,7 @@ const TextBox104Cb = useTextBox104Cb()
 <Flex className="p-Home Flex68 bpt" {...Flex68Props} {...Flex68Cb} {...Flex68IoProps}>
 <TextBox className="p-Home TextBox62 bpt" {...TextBox62Props} {...TextBox62Cb} {...TextBox62IoProps}/>
 <Flex className="p-Home Flex74 bpt" {...Flex74Props} {...Flex74Cb} {...Flex74IoProps}>
+<Image className="p-Home Image27 bpt" {...Image27Props} {...Image27Cb} {...Image27IoProps}/>
 <TextBox className="p-Home TextBox64 bpt" {...TextBox64Props} {...TextBox64Cb} {...TextBox64IoProps}/>
 </Flex>
 </Flex>

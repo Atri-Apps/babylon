@@ -816,7 +816,6 @@ export function useStep_3Cb() {
 }), [])
 	return { onClick }
 }
-
 export function useTextBox64Cb() {
 	const onClick = useCallback(callbackFactory("TextBox64", "Home", "/", "onClick", 
 			{
@@ -1213,8 +1212,8 @@ export function useImage22Cb() {
 }), [])
 	return { onClick }
 }
-export function useUpload5Cb() {
-	const onChange = useCallback(callbackFactory("Upload5", "Home", "/", "onChange", 
+export function useVideo_UploadCb() {
+	const onChange = useCallback(callbackFactory("Video_Upload", "Home", "/", "onChange", 
 			{
   "handlers": [
     {
@@ -1237,7 +1236,7 @@ export function useUpload5Cb() {
     }
   ]
 }), [])
-	const onClick = useCallback(callbackFactory("Upload5", "Home", "/", "onClick", 
+	const onClick = useCallback(callbackFactory("Video_Upload", "Home", "/", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -1250,6 +1249,22 @@ export function useUpload5Cb() {
 }
 export function useImage26Cb() {
 	const onClick = useCallback(callbackFactory("Image26", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage27Cb() {
+	const onClick = useCallback(callbackFactory("Image27", "Home", "/", "onClick", 
 			{
   "handlers": [
     {

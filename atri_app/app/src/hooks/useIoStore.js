@@ -3,7 +3,7 @@ import create from "zustand";
 const useIoStore = create((set) => {
   return {
   "Home": {
-    "Upload5": {
+    "Video_Upload": {
       "io": {
         "files": {
           "type": "files",

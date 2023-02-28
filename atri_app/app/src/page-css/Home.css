@@ -399,7 +399,7 @@ line-height: 42px;
 color: #ffff;
 padding-bottom: 15px;
 }
-.p-Home.Upload5 {
+.p-Home.Video_Upload {
 align-items: center;
 color: #000f;
 background-color: #99F6E4ff;
@@ -556,6 +556,9 @@ font-weight: 500;
 font-size: 24px;
 line-height: 32px;
 color: #000f;
+}
+.p-Home.Image27 {
+;
 }
 .p-Home.TextBox65 {
 color: #99F6E4ff;
