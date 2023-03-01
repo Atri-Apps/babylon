@@ -12,122 +12,6 @@ export function useBodyCb() {
 }), [])
 	return { onClick }
 }
-export function useHeaderCb() {
-	const onClick = useCallback(callbackFactory("Header", "Home", "/", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useLogoCb() {
-	const onClick = useCallback(callbackFactory("Logo", "Home", "/", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useLogo_ImageCb() {
-	const onClick = useCallback(callbackFactory("Logo_Image", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useLogo_Image_NameCb() {
-	const onClick = useCallback(callbackFactory("Logo_Image_Name", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useNavigation_OptionsCb() {
-	const onClick = useCallback(callbackFactory("Navigation_Options", "Home", "/", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useShowcaseCb() {
-	const onClick = useCallback(callbackFactory("Showcase", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useDocsCb() {
-	const onClick = useCallback(callbackFactory("Docs", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useLogin_ButtonCb() {
-	const onClick = useCallback(callbackFactory("Login_Button", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useModel_HeaderCb() {
 	const onClick = useCallback(callbackFactory("Model_Header", "Home", "/", "onClick", 
 			{
@@ -148,58 +32,6 @@ export function useModel_NameCb() {
       "sendEventData": true
     }
   ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useModel_SocialCb() {
-	const onClick = useCallback(callbackFactory("Model_Social", "Home", "/", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex7Cb() {
-	const onClick = useCallback(callbackFactory("Flex7", "Home", "/", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox4Cb() {
-	const onClick = useCallback(callbackFactory("TextBox4", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex8Cb() {
-	const onClick = useCallback(callbackFactory("Flex8", "Home", "/", "onClick", 
-			{
-  "handlers": [],
   "actions": [
     {
       "type": "do_nothing"
@@ -376,38 +208,6 @@ export function useFlex49Cb() {
 	const onClick = useCallback(callbackFactory("Flex49", "Home", "/", "onClick", 
 			{
   "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useImage7Cb() {
-	const onClick = useCallback(callbackFactory("Image7", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useImage9Cb() {
-	const onClick = useCallback(callbackFactory("Image9", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -1009,72 +809,8 @@ export function useDiv42Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox103Cb() {
-	const onClick = useCallback(callbackFactory("TextBox103", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useTextBox104Cb() {
 	const onClick = useCallback(callbackFactory("TextBox104", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox105Cb() {
-	const onClick = useCallback(callbackFactory("TextBox105", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox106Cb() {
-	const onClick = useCallback(callbackFactory("TextBox106", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox107Cb() {
-	const onClick = useCallback(callbackFactory("TextBox107", "Home", "/", "onClick", 
 			{
   "handlers": [
     {
@@ -1093,38 +829,6 @@ export function useFlex84Cb() {
 	const onClick = useCallback(callbackFactory("Flex84", "Home", "/", "onClick", 
 			{
   "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox108Cb() {
-	const onClick = useCallback(callbackFactory("TextBox108", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox109Cb() {
-	const onClick = useCallback(callbackFactory("TextBox109", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
   "actions": [
     {
       "type": "do_nothing"

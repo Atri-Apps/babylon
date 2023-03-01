@@ -43,15 +43,6 @@ const desktopModeProps = {
     "Body": {
       "callbacks": {}
     },
-    "Header": {
-      "callbacks": {}
-    },
-    "Logo": {
-      "callbacks": {}
-    },
-    "Navigation_Options": {
-      "callbacks": {}
-    },
     "Footer": {
       "callbacks": {}
     },
@@ -62,15 +53,6 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Model_Header": {
-      "callbacks": {}
-    },
-    "Model_Social": {
-      "callbacks": {}
-    },
-    "Flex7": {
-      "callbacks": {}
-    },
-    "Flex8": {
       "callbacks": {}
     },
     "Steps": {
@@ -166,68 +148,6 @@ const desktopModeProps = {
     "Flex84": {
       "callbacks": {}
     },
-    "Login_Button": {
-      "custom": {
-        "text": "Log In"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Logo_Image": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/logo_with_name%202atri_labs.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Logo_Image_Name": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/logo_with_name%203.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Showcase": {
-      "custom": {
-        "text": "Showcase"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Docs": {
-      "custom": {
-        "text": "Docs"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox43": {
       "custom": {
         "text": "Model by Babylon"
@@ -280,44 +200,6 @@ const desktopModeProps = {
     "Model_Name": {
       "custom": {
         "text": "Model Name"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox4": {
-      "custom": {
-        "text": "42"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image7": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/Vectorlike.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image9": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/Vectorshare.png"
       },
       "callbacks": {
         "onClick": [
@@ -640,81 +522,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox105": {
-      "custom": {
-        "text": "url = \"https://predict.pyqai.com\""
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox106": {
-      "custom": {
-        "text": "json_input = { \"model\": 154, \"version\": 441, \"account\": , \"input_sequence\":\"Your input goes here\", \"max_new_tokens\":50}"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox107": {
-      "custom": {
-        "text": "headers = { 'Authorization': \"\",'Content-Type': 'application/json'}"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox108": {
-      "custom": {
-        "text": "print(json.loads(response.content)['response']['response'])"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox109": {
-      "custom": {
-        "text": "response = requests.post(headers=headers, json = json_input, url = url )"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox103": {
-      "custom": {
-        "text": "import json"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox104": {
       "custom": {
-        "text": "import requests"
+        "text": "2023-03-01 00:46:24,638 - babylogger - INFO :34 :  babylog.config contents:  &#10;INFO:babylogger:babylog.config contents:  2023-03-01 00:46:24,641 - babylogger - INFO :35 :  {'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} INFO:babylogger:{'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} 2023-03-01 00:46:24,644 - babylogger - INFO :62 :  initialized babylog client INFO:babylogger:initialized babylog client 2023-03-01 00:46:24,648 - babylogger - INFO :187 :  shutting down babylog client INFO:babylogger:shutting down babylog client 2023-03-01 00:46:24,705 - babylogger - INFO :169 :  successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally INFO:babylogger:successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally"
       },
       "callbacks": {
         "onClick": [

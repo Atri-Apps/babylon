@@ -5,24 +5,7 @@ flex-direction: column;
 padding-left: 48px;
 padding-right: 48px;
 row-gap: 48px;
-}
-.p-Home.Header {
-display: flex;
-justify-content: space-between;
-padding-top: 16px;
-padding-left: ;
-padding-right: ;
-padding-bottom: ;
-align-items: center;
-}
-.p-Home.Logo {
-display: flex;
-align-items: center;
-}
-.p-Home.Navigation_Options {
-display: flex;
-align-items: center;
-column-gap: 16px;
+padding-top: 100px;
 }
 .p-Home.Footer {
 display: flex;
@@ -50,40 +33,6 @@ padding-top: ;
 padding-left: ;
 padding-right: ;
 padding-bottom: ;
-}
-.p-Home.Model_Social {
-display: flex;
-justify-content: flex-start;
-column-gap: 16px;
-width: 140px;
-}
-.p-Home.Flex7 {
-display: flex;
-align-items: center;
-column-gap: 8px;
-padding-left: 12px;
-padding-right: 12px;
-background-color: #161618ff;
-border-width: 1px;
-border-style: solid;
-border-color: #374151ff;
-border-radius: 4px;
-padding-top: 4px;
-padding-bottom: 4px;
-}
-.p-Home.Flex8 {
-display: flex;
-align-items: center;
-column-gap: 10px;
-padding-left: 12px;
-padding-right: 12px;
-background-color: #161618ff;
-border-width: 1px;
-border-style: solid;
-border-color: #374151ff;
-border-radius: 4px;
-padding-top: 4px;
-padding-bottom: 4px;
 }
 .p-Home.Steps {
 display: flex;
@@ -244,6 +193,7 @@ row-gap: 20px;
 .p-Home.Flex76 {
 display: flex;
 flex-direction: column;
+row-gap: 10px;
 }
 .p-Home.Flex77 {
 display: flex;
@@ -284,48 +234,6 @@ display: flex;
 flex-direction: column;
 row-gap: 8px;
 }
-.p-Home.Login_Button {
-color: #1E293Bff;
-background-color: #FDE047ff;
-padding-top: 8px;
-padding-left: 16px;
-padding-bottom: 8px;
-padding-right: 16px;
-font-size: 16px;
-border-radius: 6px;
-outline: none;
-font-weight: 700;
-text-align: center;
-border-width: 1px;
-border-style: solid;
-border-color: #FDE047ff;
-cursor: pointer;
-user-select: none;
-box-shadow: ;
-font-family: Poppins;
-line-height: 24px;
-width: 140px;
-}
-.p-Home.Logo_Image {
-width: 32px;
-}
-.p-Home.Logo_Image_Name {
-width: 93px;
-}
-.p-Home.Showcase {
-color: #ffff;
-font-family: Inter;
-font-weight: 500;
-font-size: 16px;
-line-height: 19.36px;
-}
-.p-Home.Docs {
-font-family: Inter;
-font-weight: 500;
-font-size: 16px;
-color: #9CA3AFff;
-line-height: 19.36px;
-}
 .p-Home.TextBox43 {
 font-family: IBM Plex Sans;
 font-weight: 500;
@@ -359,19 +267,6 @@ font-size: 32px;
 line-height: 41px;
 color: #ffff;
 }
-.p-Home.TextBox4 {
-font-family: IBM Plex Mono;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-color: #ffff;
-}
-.p-Home.Image7 {
-;
-}
-.p-Home.Image9 {
-;
-}
 .p-Home.TextBox45 {
 font-family: IBM Plex Mono;
 font-weight: 700;
@@ -394,7 +289,7 @@ background-color: #6B7280ff;
 .p-Home.TextBox54 {
 font-family: IBM Plex Sans;
 font-weight: 500;
-font-size: 32px;
+font-size: 24px;
 line-height: 42px;
 color: #ffff;
 padding-bottom: 15px;
@@ -452,7 +347,7 @@ background-color: #6B7280ff;
 .p-Home.TextBox56 {
 font-family: IBM Plex Sans;
 font-weight: 500;
-font-size: 32px;
+font-size: 24px;
 line-height: 42px;
 color: #ffff;
 padding-bottom: 15px;
@@ -545,7 +440,7 @@ background-color: #6B7280ff;
 .p-Home.TextBox62 {
 font-family: IBM Plex Sans;
 font-weight: 500;
-font-size: 32px;
+font-size: 24px;
 line-height: 42px;
 color: #ffff;
 padding-bottom: 15px;
@@ -570,7 +465,7 @@ line-height: 41px;
 .p-Home.TextBox66 {
 font-family: IBM Plex Sans;
 font-weight: 500;
-font-size: 32px;
+font-size: 24px;
 line-height: 42px;
 color: #ffff;
 }
@@ -580,72 +475,12 @@ color: #ffff;
 .p-Home.TextBox67 {
 font-family: IBM Plex Sans;
 font-weight: 500;
-font-size: 32px;
+font-size: 24px;
 line-height: 42px;
 color: #ffff;
 }
 .p-Home.Image21 {
 ;
-}
-.p-Home.TextBox105 {
-font-family: ;
-font-size: ;
-font-weight: 500;
-color: ;
-padding-top: ;
-padding-right: ;
-padding-bottom: ;
-padding-left: ;
-}
-.p-Home.TextBox106 {
-font-family: ;
-font-size: ;
-font-weight: 500;
-color: ;
-padding-top: ;
-padding-right: ;
-padding-bottom: ;
-padding-left: ;
-}
-.p-Home.TextBox107 {
-font-family: ;
-font-size: ;
-font-weight: 500;
-color: ;
-padding-top: ;
-padding-right: ;
-padding-bottom: ;
-padding-left: ;
-}
-.p-Home.TextBox108 {
-font-family: ;
-font-size: ;
-font-weight: 500;
-color: ;
-padding-top: ;
-padding-right: ;
-padding-bottom: ;
-padding-left: ;
-}
-.p-Home.TextBox109 {
-font-family: ;
-font-size: ;
-font-weight: 500;
-color: ;
-padding-top: ;
-padding-right: ;
-padding-bottom: ;
-padding-left: ;
-}
-.p-Home.TextBox103 {
-font-family: ;
-font-size: ;
-font-weight: 500;
-color: ;
-padding-top: ;
-padding-right: ;
-padding-bottom: ;
-padding-left: ;
 }
 .p-Home.TextBox104 {
 font-family: ;

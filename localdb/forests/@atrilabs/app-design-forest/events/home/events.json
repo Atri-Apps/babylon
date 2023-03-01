@@ -48545,5 +48545,312 @@
       }
     },
     "id": "2b65182e-4f0c-4c01-8215-5dd563563ff5"
+  },
+  {
+    "type": "DELETE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "7f7e2434-e793-4ee2-9cca-969a95700d92"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "slice": {
+      "parent": {
+        "id": "body",
+        "index": 1
+      }
+    },
+    "id": "48201c6c-bfb0-42be-96e2-67c12c576bee"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "paddingTop": "1px"
+        }
+      }
+    },
+    "id": "acfd5105-779c-4003-b3e5-d066cc5cd39d"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "paddingTop": "10px"
+        }
+      }
+    },
+    "id": "acfd5105-779c-4003-b3e5-d066cc5cd39d"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "paddingTop": "100px"
+        }
+      }
+    },
+    "id": "acfd5105-779c-4003-b3e5-d066cc5cd39d"
+  },
+  {
+    "type": "DELETE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "884445a2-1de8-43c3-b7cf-3048bcf1c90b"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "2px"
+        }
+      }
+    },
+    "id": "fb6bce5a-692e-4eb4-9827-973c828b342c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "24px"
+        }
+      }
+    },
+    "id": "fb6bce5a-692e-4eb4-9827-973c828b342c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "2px"
+        }
+      }
+    },
+    "id": "0a959994-9c71-4efd-bab0-e0a8608a6db0"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "24px"
+        }
+      }
+    },
+    "id": "0a959994-9c71-4efd-bab0-e0a8608a6db0"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "2px"
+        }
+      }
+    },
+    "id": "0b448c9d-1351-404a-924c-f372b961f8e1"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "24px"
+        }
+      }
+    },
+    "id": "0b448c9d-1351-404a-924c-f372b961f8e1"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "2px"
+        }
+      }
+    },
+    "id": "bd48d151-92a1-4568-be79-2de8ccc86b2b"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "24px"
+        }
+      }
+    },
+    "id": "bd48d151-92a1-4568-be79-2de8ccc86b2b"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "2px"
+        }
+      }
+    },
+    "id": "9baa6723-5ab3-4ad2-8f34-c93cad409299"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "fontSize": "24px"
+        }
+      }
+    },
+    "id": "9baa6723-5ab3-4ad2-8f34-c93cad409299"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "rowGap": "1px"
+        }
+      }
+    },
+    "id": "56e497c6-63a7-406f-a816-70330347aeb9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "rowGap": "10px"
+        }
+      }
+    },
+    "id": "56e497c6-63a7-406f-a816-70330347aeb9"
+  },
+  {
+    "type": "DELETE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "4fcd80ea-4912-47db-8ea1-72d5ddaa895b"
+  },
+  {
+    "type": "DELETE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "d715574e-7228-4d43-a469-0e9c27f72592"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "2023-03-01 00:46:24,638 - babylogger - INFO :34 :  babylog.config contents:  INFO:babylogger:babylog.config contents:  2023-03-01 00:46:24,641 - babylogger - INFO :35 :  {'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} INFO:babylogger:{'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} 2023-03-01 00:46:24,644 - babylogger - INFO :62 :  initialized babylog client INFO:babylogger:initialized babylog client 2023-03-01 00:46:24,648 - babylogger - INFO :187 :  shutting down babylog client INFO:babylogger:shutting down babylog client 2023-03-01 00:46:24,705 - babylogger - INFO :169 :  successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally INFO:babylogger:successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally"
+        }
+      }
+    },
+    "id": "9bd9ccc2-ba13-45d0-a91f-7eabf1b9986b"
+  },
+  {
+    "type": "DELETE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "30d6957b-943b-42d1-9b4d-d623ef89e884"
+  },
+  {
+    "type": "DELETE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "a161cbee-59d4-4851-b5c1-d51a65864536"
+  },
+  {
+    "type": "DELETE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "36ed3486-31a7-46c0-8f15-472c5efcf0cf"
+  },
+  {
+    "type": "DELETE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "id": "e8371e81-2ba4-4a31-993d-eaedaae600aa"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "2023-03-01 00:46:24,638 - babylogger - INFO :34 :  babylog.config contents:  &#10;INFO:babylogger:babylog.config contents:  2023-03-01 00:46:24,641 - babylogger - INFO :35 :  {'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} INFO:babylogger:{'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} 2023-03-01 00:46:24,644 - babylogger - INFO :62 :  initialized babylog client INFO:babylogger:initialized babylog client 2023-03-01 00:46:24,648 - babylogger - INFO :187 :  shutting down babylog client INFO:babylogger:shutting down babylog client 2023-03-01 00:46:24,705 - babylogger - INFO :169 :  successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally INFO:babylogger:successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally"
+        }
+      }
+    },
+    "id": "9bd9ccc2-ba13-45d0-a91f-7eabf1b9986b"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "2023-03-01 00:46:24,638 - babylogger - INFO :34 :  babylog.config contents:  &#10; INFO:babylogger:babylog.config contents:  2023-03-01 00:46:24,641 - babylogger - INFO :35 :  {'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} INFO:babylogger:{'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} 2023-03-01 00:46:24,644 - babylogger - INFO :62 :  initialized babylog client INFO:babylogger:initialized babylog client 2023-03-01 00:46:24,648 - babylogger - INFO :187 :  shutting down babylog client INFO:babylogger:shutting down babylog client 2023-03-01 00:46:24,705 - babylogger - INFO :169 :  successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally INFO:babylogger:successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally"
+        }
+      }
+    },
+    "id": "9bd9ccc2-ba13-45d0-a91f-7eabf1b9986b"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "2023-03-01 00:46:24,638 - babylogger - INFO :34 :  babylog.config contents:  &#10; &#10;INFO:babylogger:babylog.config contents:  2023-03-01 00:46:24,641 - babylogger - INFO :35 :  {'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} INFO:babylogger:{'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} 2023-03-01 00:46:24,644 - babylogger - INFO :62 :  initialized babylog client INFO:babylogger:initialized babylog client 2023-03-01 00:46:24,648 - babylogger - INFO :187 :  shutting down babylog client INFO:babylogger:shutting down babylog client 2023-03-01 00:46:24,705 - babylogger - INFO :169 :  successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally INFO:babylogger:successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally"
+        }
+      }
+    },
+    "id": "9bd9ccc2-ba13-45d0-a91f-7eabf1b9986b"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "2023-03-01 00:46:24,638 - babylogger - INFO :34 :  babylog.config contents:  &#10; &#10; INFO:babylogger:babylog.config contents:  2023-03-01 00:46:24,641 - babylogger - INFO :35 :  {'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} INFO:babylogger:{'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} 2023-03-01 00:46:24,644 - babylogger - INFO :62 :  initialized babylog client INFO:babylogger:initialized babylog client 2023-03-01 00:46:24,648 - babylogger - INFO :187 :  shutting down babylog client INFO:babylogger:shutting down babylog client 2023-03-01 00:46:24,705 - babylogger - INFO :169 :  successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally INFO:babylogger:successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally"
+        }
+      }
+    },
+    "id": "9bd9ccc2-ba13-45d0-a91f-7eabf1b9986b"
+  },
+  {
+    "type": "HARDPATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "9bd9ccc2-ba13-45d0-a91f-7eabf1b9986b",
+    "state": {
+      "property": {
+        "custom": {
+          "text": "2023-03-01 00:46:24,638 - babylogger - INFO :34 :  babylog.config contents:  &#10; &#10;INFO:babylogger:babylog.config contents:  2023-03-01 00:46:24,641 - babylogger - INFO :35 :  {'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} INFO:babylogger:{'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} 2023-03-01 00:46:24,644 - babylogger - INFO :62 :  initialized babylog client INFO:babylogger:initialized babylog client 2023-03-01 00:46:24,648 - babylogger - INFO :187 :  shutting down babylog client INFO:babylogger:shutting down babylog client 2023-03-01 00:46:24,705 - babylogger - INFO :169 :  successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally INFO:babylogger:successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally"
+        }
+      },
+      "parent": {
+        "id": "ce11e684-8bd4-4afa-93c4-df738678d300",
+        "index": 0
+      }
+    }
+  },
+  {
+    "type": "HARDPATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "9bd9ccc2-ba13-45d0-a91f-7eabf1b9986b",
+    "state": {
+      "property": {
+        "custom": {
+          "text": "2023-03-01 00:46:24,638 - babylogger - INFO :34 :  babylog.config contents:  &#10; INFO:babylogger:babylog.config contents:  2023-03-01 00:46:24,641 - babylogger - INFO :35 :  {'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} INFO:babylogger:{'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} 2023-03-01 00:46:24,644 - babylogger - INFO :62 :  initialized babylog client INFO:babylogger:initialized babylog client 2023-03-01 00:46:24,648 - babylogger - INFO :187 :  shutting down babylog client INFO:babylogger:shutting down babylog client 2023-03-01 00:46:24,705 - babylogger - INFO :169 :  successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally INFO:babylogger:successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally"
+        }
+      },
+      "parent": {
+        "id": "ce11e684-8bd4-4afa-93c4-df738678d300",
+        "index": 0
+      }
+    }
+  },
+  {
+    "type": "HARDPATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "9bd9ccc2-ba13-45d0-a91f-7eabf1b9986b",
+    "state": {
+      "property": {
+        "custom": {
+          "text": "2023-03-01 00:46:24,638 - babylogger - INFO :34 :  babylog.config contents:  &#10;INFO:babylogger:babylog.config contents:  2023-03-01 00:46:24,641 - babylogger - INFO :35 :  {'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} INFO:babylogger:{'device': {'ip': '127.0.0.1', 'port': 5555, 'name': 'DEVICE_NAME', 'group': 'GROUP_NAME'}, 'data': {'interval': 0, 'max_workers': 4}, 'S3_storage': {'aws_access_key_id': 'YOUR_ACCESS_KEY', 'aws_secret_access_key': 'YOUR_SECRET_KEY', 'bucket_name': 'YOUR_BUCKET_NAME', 'bucket_region': 'YOUR_BUCKET_REGION'}} 2023-03-01 00:46:24,644 - babylogger - INFO :62 :  initialized babylog client INFO:babylogger:initialized babylog client 2023-03-01 00:46:24,648 - babylogger - INFO :187 :  shutting down babylog client INFO:babylogger:shutting down babylog client 2023-03-01 00:46:24,705 - babylogger - INFO :169 :  successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally INFO:babylogger:successfully logged \"./babylog/DETECTION/yolov8n_pretrained/0.0.1/GROUP_NAME/DEVICE_NAME/2023-03-01/2023-03-01 00:46:24.704.bin\" locally"
+        }
+      },
+      "parent": {
+        "id": "ce11e684-8bd4-4afa-93c4-df738678d300",
+        "index": 0
+      }
+    }
   }
 ]
