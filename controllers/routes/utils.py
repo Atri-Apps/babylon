@@ -7,6 +7,8 @@ from babylog import Babylog, VisionModelType, InferenceDevice, LoggedPrediction
 from babylog.logger import babylogger
 import numpy as np
 from ultralytics import YOLO
+from torch import device
+import cv2 as cv
 
 from .image_utils import ImageSequence
 
@@ -20,7 +22,7 @@ def demo_babylog(video: ImageSequence, config_path: str, logging_interval: int =
             start_time = time.time()  # not using cuda time  measurement since inference is on cpu
             if frame is None:
                 continue
-            results = model(frame)
+            results = model(frame, device=device('cpu'))
             latency = int((time.time() - start_time) * 1000)
             boxes = results[0].boxes.numpy()  # Boxes object for bbox outputs
             boxes_xywh = boxes.xywh  # bounding boxes in x, y, width, height format
@@ -87,10 +89,8 @@ def prediction_stats(logged_prediction: LoggedPrediction):
     model_version = logged_prediction.model['version']
     model_name = logged_prediction.model['name']
     model_stats = 'Model info: {} v{}'.format(model_name, model_version)
-    timestamp = logged_prediction.timestamp
-    time_ = 'time logged: {}'.format(datetime.fromtimestamp(float(timestamp)))
 
-    return f'{model_stats}\n{inference_stats}\n{time_}'
+    return f'{model_stats}\n{inference_stats}'
 
 
 def get_predictions(filepaths: List[str], max_predictions: int = 10):
