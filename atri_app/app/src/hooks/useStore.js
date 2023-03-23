@@ -124,8 +124,20 @@ const desktopModeProps = {
     "Flex68": {
       "callbacks": {}
     },
-    "Flex74": {
-      "callbacks": {}
+    "run_btn": {
+      "callbacks": {
+        "onClick": [
+          {
+            "sendFile": {
+              "alias": "Video_Upload",
+              "props": [
+                "io",
+                "files"
+              ]
+            }
+          }
+        ]
+      }
     },
     "Logs": {
       "callbacks": {}
@@ -270,17 +282,7 @@ const desktopModeProps = {
         "disabled": false
       },
       "callbacks": {
-        "onChange": [
-          {
-            "sendFile": {
-              "self": true,
-              "props": [
-                "io",
-                "files"
-              ]
-            }
-          }
-        ]
+        "onChange": []
       }
     },
     "File_Upload": {
@@ -333,11 +335,20 @@ const desktopModeProps = {
         ]
       }
     },
-    "Div32": {
-      "callbacks": {}
-    },
-    "Div33": {
-      "callbacks": {}
+    "interval_slider": {
+      "custom": {
+        "minValue": 0,
+        "maxValue": 30,
+        "value": 15
+      },
+      "callbacks": {
+        "onChange": [],
+        "onFinish": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     },
     "TextBox58": {
       "custom": {
@@ -363,12 +374,18 @@ const desktopModeProps = {
         ]
       }
     },
-    "Input2": {
+    "interval_input": {
       "custom": {
         "value": "15",
         "placeholder": ""
       },
-      "callbacks": {}
+      "callbacks": {
+        "onChange": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     },
     "Image18": {
       "custom": {

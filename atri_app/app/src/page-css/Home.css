@@ -172,7 +172,7 @@ border-left-style: none;
 border-left-color: transparent;
 row-gap: 32px;
 }
-.p-Home.Flex74 {
+.p-Home.run_btn {
 display: flex;
 background-color: #99F6E4ff;
 justify-content: space-around;
@@ -352,26 +352,10 @@ line-height: 42px;
 color: #ffff;
 padding-bottom: 15px;
 }
-.p-Home.Div32 {
-width: 32px;
-height: 32px;
-background-color: #99F6E4ff;
-border-radius: 4px;
-position: relative;
-left: 244px;
-bottom: 10px;
-border-width: 1px;
-border-style: solid;
-border-color: #99F6E4ff;
-}
-.p-Home.Div33 {
-height: 12px;
-background-color: #14B8A6ff;
-position: absolute;
-width: 520px;
-border-width: 1px;
-border-style: solid;
-border-color: #14B8A6ff;
+.p-Home.interval_slider {
+width: 100%;
+height: ;
+padding-top: ;
 }
 .p-Home.TextBox58 {
 font-family: IBM Plex Sans;
@@ -387,7 +371,7 @@ color: #ffff;
 font-size: 20px;
 line-height: 26px;
 }
-.p-Home.Input2 {
+.p-Home.interval_input {
 box-sizing: border-box;
 font-variant: tabular-nums;
 font-feature-settings: tnum;
@@ -406,7 +390,7 @@ border-radius: 2px;
 height: 40px;
 font-family: IBM Plex Sans;
 font-weight: 500;
-width: 72px;
+width: 4em;
 align-self: flex-start;
 }
 .p-Home.Image18 {

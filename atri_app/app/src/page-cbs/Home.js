@@ -404,30 +404,6 @@ export function useStep_2Cb() {
 }), [])
 	return { onClick }
 }
-export function useDiv32Cb() {
-	const onClick = useCallback(callbackFactory("Div32", "Home", "/", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useDiv33Cb() {
-	const onClick = useCallback(callbackFactory("Div33", "Home", "/", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useDiv34Cb() {
 	const onClick = useCallback(callbackFactory("Div34", "Home", "/", "onClick", 
 			{
@@ -632,10 +608,20 @@ export function useTextBox64Cb() {
 }), [])
 	return { onClick }
 }
-export function useFlex74Cb() {
-	const onClick = useCallback(callbackFactory("Flex74", "Home", "/", "onClick", 
+export function userun_btnCb() {
+	const onClick = useCallback(callbackFactory("run_btn", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "sendFile": {
+        "alias": "Video_Upload",
+        "props": [
+          "io",
+          "files"
+        ]
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -644,10 +630,14 @@ export function useFlex74Cb() {
 }), [])
 	return { onClick }
 }
-export function useInput2Cb() {
-	const onChange = useCallback(callbackFactory("Input2", "Home", "/", "onChange", 
+export function useinterval_inputCb() {
+	const onChange = useCallback(callbackFactory("interval_input", "Home", "/", "onChange", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
   "actions": [
     {
       "type": "controlled",
@@ -658,7 +648,7 @@ export function useInput2Cb() {
     }
   ]
 }), [])
-	const onPressEnter = useCallback(callbackFactory("Input2", "Home", "/", "onPressEnter", 
+	const onPressEnter = useCallback(callbackFactory("interval_input", "Home", "/", "onPressEnter", 
 			{
   "handlers": [],
   "actions": [
@@ -919,17 +909,7 @@ export function useImage22Cb() {
 export function useVideo_UploadCb() {
 	const onChange = useCallback(callbackFactory("Video_Upload", "Home", "/", "onChange", 
 			{
-  "handlers": [
-    {
-      "sendFile": {
-        "self": true,
-        "props": [
-          "io",
-          "files"
-        ]
-      }
-    }
-  ],
+  "handlers": [],
   "actions": [
     {
       "type": "file_input",
@@ -982,4 +962,33 @@ export function useImage27Cb() {
   ]
 }), [])
 	return { onClick }
+}
+export function useinterval_sliderCb() {
+	const onChange = useCallback(callbackFactory("interval_slider", "Home", "/", "onChange", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "value"
+      ]
+    }
+  ]
+}), [])
+	const onFinish = useCallback(callbackFactory("interval_slider", "Home", "/", "onFinish", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onChange,onFinish }
 }

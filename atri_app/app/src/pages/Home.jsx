@@ -9,8 +9,9 @@ import { Div } from "@atrilabs/react-component-manifests/src/manifests/Div/Div.t
 import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { Upload } from "@atrilabs/react-component-manifests/src/manifests/Upload/Upload.tsx";
+import { Slider } from "@atrilabs/react-component-manifests/src/manifests/Slider/Slider.tsx";
 import { Input } from "@atrilabs/react-component-manifests/src/manifests/Input/Input.tsx";
-import { useBodyCb, useFooterCb, useFlex39Cb, useModel_InfoCb, useModel_HeaderCb, useStepsCb, useStep_1Cb, useFlex43Cb, useFlex49Cb, useDiv26Cb, useFlex55Cb, useFlex57Cb, useDiv43Cb, useStep_2Cb, useFlex61Cb, useFlex60Cb, useFlex59Cb, useDiv34Cb, useFlex64Cb, useFlex66Cb, useFlex62Cb, useStep_3Cb, useFlex71Cb, useFlex72Cb, useFlex70Cb, useFlex68Cb, useFlex74Cb, useLogsCb, useFlex76Cb, useFlex77Cb, useFlex78Cb, useDiv42Cb, useFlex85Cb, useFlex84Cb, useTextBox43Cb, useTextBox44Cb, useImage26Cb, useTextBox6Cb, useModel_NameCb, useTextBox45Cb, useImage10Cb, useImage6Cb, useDiv29Cb, useTextBox54Cb, useVideo_UploadCb, useFile_UploadCb, useImage22Cb, useDiv30Cb, useTextBox56Cb, useDiv32Cb, useDiv33Cb, useTextBox58Cb, useTextBox59Cb, useInput2Cb, useImage18Cb, useTextBox57Cb, useTextBox63Cb, useImage19Cb, useDiv38Cb, useTextBox62Cb, useTextBox64Cb, useImage27Cb, useTextBox65Cb, useTextBox66Cb, useImage20Cb, useTextBox67Cb, useImage21Cb, useTextBox104Cb } from "../page-cbs/Home";
+import { useBodyCb, useFooterCb, useFlex39Cb, useModel_InfoCb, useModel_HeaderCb, useStepsCb, useStep_1Cb, useFlex43Cb, useFlex49Cb, useDiv26Cb, useFlex55Cb, useFlex57Cb, useDiv43Cb, useStep_2Cb, useFlex61Cb, useFlex60Cb, useFlex59Cb, useDiv34Cb, useFlex64Cb, useFlex66Cb, useFlex62Cb, useStep_3Cb, useFlex71Cb, useFlex72Cb, useFlex70Cb, useFlex68Cb, userun_btnCb, useLogsCb, useFlex76Cb, useFlex77Cb, useFlex78Cb, useDiv42Cb, useFlex85Cb, useFlex84Cb, useTextBox43Cb, useTextBox44Cb, useImage26Cb, useTextBox6Cb, useModel_NameCb, useTextBox45Cb, useImage10Cb, useImage6Cb, useDiv29Cb, useTextBox54Cb, useVideo_UploadCb, useFile_UploadCb, useImage22Cb, useDiv30Cb, useTextBox56Cb, useinterval_sliderCb, useTextBox58Cb, useTextBox59Cb, useinterval_inputCb, useImage18Cb, useTextBox57Cb, useTextBox63Cb, useImage19Cb, useDiv38Cb, useTextBox62Cb, useTextBox64Cb, useImage27Cb, useTextBox65Cb, useTextBox66Cb, useImage20Cb, useTextBox67Cb, useImage21Cb, useTextBox104Cb } from "../page-cbs/Home";
 import "../page-css/Home.css";
 import "../custom/Home";
 
@@ -108,9 +109,9 @@ const Flex70Cb = useFlex70Cb()
 const Flex68Props = useStore((state)=>state["Home"]["Flex68"]);
 const Flex68IoProps = useIoStore((state)=>state["Home"]["Flex68"]);
 const Flex68Cb = useFlex68Cb()
-const Flex74Props = useStore((state)=>state["Home"]["Flex74"]);
-const Flex74IoProps = useIoStore((state)=>state["Home"]["Flex74"]);
-const Flex74Cb = useFlex74Cb()
+const run_btnProps = useStore((state)=>state["Home"]["run_btn"]);
+const run_btnIoProps = useIoStore((state)=>state["Home"]["run_btn"]);
+const run_btnCb = userun_btnCb()
 const LogsProps = useStore((state)=>state["Home"]["Logs"]);
 const LogsIoProps = useIoStore((state)=>state["Home"]["Logs"]);
 const LogsCb = useLogsCb()
@@ -177,21 +178,18 @@ const Div30Cb = useDiv30Cb()
 const TextBox56Props = useStore((state)=>state["Home"]["TextBox56"]);
 const TextBox56IoProps = useIoStore((state)=>state["Home"]["TextBox56"]);
 const TextBox56Cb = useTextBox56Cb()
-const Div32Props = useStore((state)=>state["Home"]["Div32"]);
-const Div32IoProps = useIoStore((state)=>state["Home"]["Div32"]);
-const Div32Cb = useDiv32Cb()
-const Div33Props = useStore((state)=>state["Home"]["Div33"]);
-const Div33IoProps = useIoStore((state)=>state["Home"]["Div33"]);
-const Div33Cb = useDiv33Cb()
+const interval_sliderProps = useStore((state)=>state["Home"]["interval_slider"]);
+const interval_sliderIoProps = useIoStore((state)=>state["Home"]["interval_slider"]);
+const interval_sliderCb = useinterval_sliderCb()
 const TextBox58Props = useStore((state)=>state["Home"]["TextBox58"]);
 const TextBox58IoProps = useIoStore((state)=>state["Home"]["TextBox58"]);
 const TextBox58Cb = useTextBox58Cb()
 const TextBox59Props = useStore((state)=>state["Home"]["TextBox59"]);
 const TextBox59IoProps = useIoStore((state)=>state["Home"]["TextBox59"]);
 const TextBox59Cb = useTextBox59Cb()
-const Input2Props = useStore((state)=>state["Home"]["Input2"]);
-const Input2IoProps = useIoStore((state)=>state["Home"]["Input2"]);
-const Input2Cb = useInput2Cb()
+const interval_inputProps = useStore((state)=>state["Home"]["interval_input"]);
+const interval_inputIoProps = useIoStore((state)=>state["Home"]["interval_input"]);
+const interval_inputCb = useinterval_inputCb()
 const Image18Props = useStore((state)=>state["Home"]["Image18"]);
 const Image18IoProps = useIoStore((state)=>state["Home"]["Image18"]);
 const Image18Cb = useImage18Cb()
@@ -277,8 +275,7 @@ const TextBox104Cb = useTextBox104Cb()
 <Flex className="p-Home Flex59 bpt" {...Flex59Props} {...Flex59Cb} {...Flex59IoProps}>
 <TextBox className="p-Home TextBox56 bpt" {...TextBox56Props} {...TextBox56Cb} {...TextBox56IoProps}/>
 <Div className="p-Home Div34 bpt" {...Div34Props} {...Div34Cb} {...Div34IoProps}>
-<Div className="p-Home Div33 bpt" {...Div33Props} {...Div33Cb} {...Div33IoProps}/>
-<Div className="p-Home Div32 bpt" {...Div32Props} {...Div32Cb} {...Div32IoProps}/>
+<Slider className="p-Home interval_slider bpt" {...interval_sliderProps} {...interval_sliderCb} {...interval_sliderIoProps}/>
 <Flex className="p-Home Flex64 bpt" {...Flex64Props} {...Flex64Cb} {...Flex64IoProps}>
 <TextBox className="p-Home TextBox59 bpt" {...TextBox59Props} {...TextBox59Cb} {...TextBox59IoProps}/>
 <TextBox className="p-Home TextBox58 bpt" {...TextBox58Props} {...TextBox58Cb} {...TextBox58IoProps}/>
@@ -287,7 +284,7 @@ const TextBox104Cb = useTextBox104Cb()
 </Flex>
 </Flex>
 <Flex className="p-Home Flex66 bpt" {...Flex66Props} {...Flex66Cb} {...Flex66IoProps}>
-<Input className="p-Home Input2 bpt" {...Input2Props} {...Input2Cb} {...Input2IoProps}/>
+<Input className="p-Home interval_input bpt" {...interval_inputProps} {...interval_inputCb} {...interval_inputIoProps}/>
 </Flex>
 </Flex>
 </Flex>
@@ -301,7 +298,7 @@ const TextBox104Cb = useTextBox104Cb()
 <Div className="p-Home Div38 bpt" {...Div38Props} {...Div38Cb} {...Div38IoProps}/>
 <Flex className="p-Home Flex68 bpt" {...Flex68Props} {...Flex68Cb} {...Flex68IoProps}>
 <TextBox className="p-Home TextBox62 bpt" {...TextBox62Props} {...TextBox62Cb} {...TextBox62IoProps}/>
-<Flex className="p-Home Flex74 bpt" {...Flex74Props} {...Flex74Cb} {...Flex74IoProps}>
+<Flex className="p-Home run_btn bpt" {...run_btnProps} {...run_btnCb} {...run_btnIoProps}>
 <Image className="p-Home Image27 bpt" {...Image27Props} {...Image27Cb} {...Image27IoProps}/>
 <TextBox className="p-Home TextBox64 bpt" {...TextBox64Props} {...TextBox64Cb} {...TextBox64IoProps}/>
 </Flex>
