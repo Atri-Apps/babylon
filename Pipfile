@@ -10,8 +10,11 @@ uvicorn = "*"
 jsonpickle = "*"
 python-multipart = "*"
 atri-utils = "*"
+babylog = "==1.0.2"
+ultralytics = "==8.0.37"
+tqdm = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.8"

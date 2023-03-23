@@ -1,6 +1,13 @@
+import glob
+
+import cv2
+
 from .atri import Atri
 from fastapi import Request, Response
 from atri_utils import *
+
+from .image_utils import ImageSequence
+from .utils import demo_babylog, get_predictions
 
 def init_state(at: Atri):
     """
@@ -25,3 +32,34 @@ def handle_event(at: Atri, req: Request, res: Response):
         # sanity check if user has successfully uploaded a file
         if at.Video_Upload.io.files != None:
             print("Video file selected", at.Video_Upload.io.files)
+
+    # Load Video
+    MAX_VIDEO_FRAMES = 300  # limit video frames passed by user
+    MAX_RESOLUTION = 1920  # limit resolution for video to FHD
+
+    # TODO: replace with filepath
+    video = ImageSequence('input.mp4')
+    if not video.check_frames(max_frames=MAX_VIDEO_FRAMES) \
+            or not video.check_resolution(max_resolution=MAX_RESOLUTION):
+        return  # TODO: check response here
+
+    # TODO: replace with logging interval from slider
+    success = demo_babylog(video=video, config_path='../babylog_resources/babylog.config.yaml', logging_interval=10000)
+    if not success:
+        return  # TODO: check response here
+    # TODO: replace with correct filepaths
+    logfile_paths = glob.glob("./babylog/**/*.bin", recursive=True)
+
+    for image, stats in get_predictions(logfile_paths):
+        pass
+        # TODO: cleanup here
+        directory_name = 'dir_'
+        filename = 'test_'
+        cv2.imwrite(f'{directory_name}/{filename}.jpg', image)
+
+
+
+
+
+
+
